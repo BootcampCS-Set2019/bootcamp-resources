@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension MagicDesignSystem {
-    class AccessibilityIdentifiers {
+    public enum AccessibilityIdentifiers {
         
     }
 }
