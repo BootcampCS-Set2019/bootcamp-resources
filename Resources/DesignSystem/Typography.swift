@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import UIKit
+
+extension MagicDesignSystem {
+    public enum Font: String {
+        case systemRegular
+        case systemBold
+        case sfProDisplayBold = "SFProDisplay-Bold"
+
+        func of(size: CGFloat) -> UIFont {
+            switch self {
+            case .systemBold:
+                return UIFont.boldSystemFont(ofSize: size)
+            case .systemRegular:
+                return UIFont.systemFont(ofSize: size)
+            default:
+                return UIFont(name: self.rawValue, size: size)!
+            }
+        }
+    }
+}
