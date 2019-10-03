@@ -1,5 +1,5 @@
 //
-//  AccessibilityLabels.swift
+//  AccessibilityIdentifiers.swift
 //  Resources
 //
 //  Created by bruno.c.carvalho on 03/10/19.

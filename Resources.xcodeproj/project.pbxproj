@@ -10,7 +10,7 @@
 		38A35C512346550700EBE438 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C502346550700EBE438 /* DesignSystem.swift */; };
 		38A35C532346553B00EBE438 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C522346553B00EBE438 /* Typography.swift */; };
 		38A35C552346554A00EBE438 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C542346554A00EBE438 /* Colors.swift */; };
-		38A35C572346556900EBE438 /* AccessibilityLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C562346556900EBE438 /* AccessibilityLabels.swift */; };
+		38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */; };
 		BD2F0C562344C00900F26D43 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2F0C482344C00900F26D43 /* Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -18,7 +18,7 @@
 		38A35C502346550700EBE438 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		38A35C522346553B00EBE438 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		38A35C542346554A00EBE438 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		38A35C562346556900EBE438 /* AccessibilityLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLabels.swift; sourceTree = "<group>"; };
+		38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
 		BD2F0C452344C00900F26D43 /* Resources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Resources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2F0C482344C00900F26D43 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
 		BD2F0C492344C00900F26D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 				38A35C502346550700EBE438 /* DesignSystem.swift */,
 				38A35C522346553B00EBE438 /* Typography.swift */,
 				38A35C542346554A00EBE438 /* Colors.swift */,
-				38A35C562346556900EBE438 /* AccessibilityLabels.swift */,
+				38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 				38A35C532346553B00EBE438 /* Typography.swift in Sources */,
 				38A35C552346554A00EBE438 /* Colors.swift in Sources */,
 				38A35C512346550700EBE438 /* DesignSystem.swift in Sources */,
-				38A35C572346556900EBE438 /* AccessibilityLabels.swift in Sources */,
+				38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
