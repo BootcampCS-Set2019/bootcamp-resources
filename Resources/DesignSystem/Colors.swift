@@ -11,8 +11,8 @@ import UIKit
 
 extension MagicDesignSystem {
     public enum Colors {
-        static let whiteText = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
-        static let grayText = UIColor(red: 216/255, green: 216/255, blue: 216/255, alpha: 1)
-        static let clear = UIColor.clear
+        public static let whiteText = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        public static let grayText = UIColor(red: 216/255, green: 216/255, blue: 216/255, alpha: 1)
+        public static let clear = UIColor.clear
     }
 }
