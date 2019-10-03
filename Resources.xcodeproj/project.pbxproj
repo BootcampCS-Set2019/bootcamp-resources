@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A35C512346550700EBE438 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C502346550700EBE438 /* DesignSystem.swift */; };
+		38A35C532346553B00EBE438 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C522346553B00EBE438 /* Typography.swift */; };
+		38A35C552346554A00EBE438 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C542346554A00EBE438 /* Colors.swift */; };
+		38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */; };
 		BD2F0C562344C00900F26D43 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2F0C482344C00900F26D43 /* Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A35C502346550700EBE438 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		38A35C522346553B00EBE438 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		38A35C542346554A00EBE438 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
 		BD2F0C452344C00900F26D43 /* Resources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Resources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2F0C482344C00900F26D43 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
 		BD2F0C492344C00900F26D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38A35C4F234654D600EBE438 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				38A35C502346550700EBE438 /* DesignSystem.swift */,
+				38A35C522346553B00EBE438 /* Typography.swift */,
+				38A35C542346554A00EBE438 /* Colors.swift */,
+				38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
 		BD2F0C3B2344C00900F26D43 = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +68,7 @@
 		BD2F0C472344C00900F26D43 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				38A35C4F234654D600EBE438 /* DesignSystem */,
 				BD2F0C482344C00900F26D43 /* Resources.h */,
 				BD2F0C492344C00900F26D43 /* Info.plist */,
 			);
@@ -109,6 +129,7 @@
 				TargetAttributes = {
 					BD2F0C442344C00900F26D43 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -118,6 +139,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BD2F0C3B2344C00900F26D43;
 			productRefGroup = BD2F0C462344C00900F26D43 /* Products */;
@@ -164,6 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A35C532346553B00EBE438 /* Typography.swift in Sources */,
+				38A35C552346554A00EBE438 /* Colors.swift in Sources */,
+				38A35C512346550700EBE438 /* DesignSystem.swift in Sources */,
+				38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +321,7 @@
 		BD2F0C5A2344C00900F26D43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -312,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bootcamp.set2019.Resources;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +348,7 @@
 		BD2F0C5B2344C00900F26D43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
