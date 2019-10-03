@@ -9,4 +9,8 @@
 import Foundation
 import UIKit
 
-class AccessibilityLabels { }
+extension MagicDesignSystem {
+    class AccessibilityIdentifiers {
+        
+    }
+}
