@@ -15,7 +15,7 @@ extension MagicDesignSystem {
         case systemBold
         case sfProDisplayBold = "SFProDisplay-Bold"
 
-        func of(size: CGFloat) -> UIFont {
+        public func of(size: CGFloat) -> UIFont {
             switch self {
             case .systemBold:
                 return UIFont.boldSystemFont(ofSize: size)
