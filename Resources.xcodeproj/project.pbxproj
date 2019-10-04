@@ -12,6 +12,8 @@
 		38A35C552346554A00EBE438 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C542346554A00EBE438 /* Colors.swift */; };
 		38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */; };
 		BD2F0C562344C00900F26D43 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2F0C482344C00900F26D43 /* Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC7FF722347AE8D00B60A48 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7FF712347AE8D00B60A48 /* Assets.swift */; };
+		DCC7FF742347B0B200B60A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC7FF732347B0B200B60A48 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD2F0C492344C00900F26D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2F0C532344C00900F26D43 /* ResourcesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesTests.swift; sourceTree = "<group>"; };
 		BD2F0C552344C00900F26D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC7FF712347AE8D00B60A48 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		DCC7FF732347B0B200B60A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 				38A35C522346553B00EBE438 /* Typography.swift */,
 				38A35C542346554A00EBE438 /* Colors.swift */,
 				38A35C562346556900EBE438 /* AccessibilityIdentifiers.swift */,
+				DCC7FF712347AE8D00B60A48 /* Assets.swift */,
+				DCC7FF732347B0B200B60A48 /* Assets.xcassets */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC7FF742347B0B200B60A48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +196,7 @@
 				38A35C532346553B00EBE438 /* Typography.swift in Sources */,
 				38A35C552346554A00EBE438 /* Colors.swift in Sources */,
 				38A35C512346550700EBE438 /* DesignSystem.swift in Sources */,
+				DCC7FF722347AE8D00B60A48 /* Assets.swift in Sources */,
 				38A35C572346556900EBE438 /* AccessibilityIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
