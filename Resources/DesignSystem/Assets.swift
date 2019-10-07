@@ -9,9 +9,21 @@
 import Foundation
 
 extension MagicDesignSystem {
-    public enum Assets {
-        public static let defaultCardArtboard = UIImage(named: "default_card_artboard")
-        public static let closeButton = UIImage(named: "close_button")
-        public static let background = UIImage(named: "background")
+    final public class Assets {
+        public static let defaultCardArtboard =
+            UIImage(named: "default_card_artboard",
+                    in: Bundle(for: Assets.self),
+                    compatibleWith: nil)
+
+        public static let closeButton =
+            UIImage(named: "close_button",
+                    in: Bundle(for: Assets.self),
+                    compatibleWith: nil)
+
+        public static let background =
+            UIImage(named: "background",
+                    in: Bundle(for: Assets.self),
+                    compatibleWith: nil)
+
     }
 }
