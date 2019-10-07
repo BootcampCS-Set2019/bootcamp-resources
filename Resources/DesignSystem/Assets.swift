@@ -10,8 +10,8 @@ import Foundation
 
 extension MagicDesignSystem {
     public enum Assets {
-        public static let defaultCardArtboard = #imageLiteral(resourceName: "default_card_artboard")
-        public static let closeButton = #imageLiteral(resourceName: "close_button")
-        public static let background = #imageLiteral(resourceName: "background")
+        public static let defaultCardArtboard = UIImage(named: "default_card_artboard")
+        public static let closeButton = UIImage(named: "close_button")
+        public static let background = UIImage(named: "background")
     }
 }
