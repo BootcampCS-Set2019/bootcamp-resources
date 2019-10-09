@@ -11,12 +11,19 @@ import UIKit
 
 extension MagicDesignSystem {
     public struct AccessibilityIdentifiers {
-        private(set) var constructedName: String = ""
+        private(set) public var constructedName: String = ""
 
-        public init(componentType: ComponentTypes, module: ModuleNames, number: Int?) {
-            self.constructedName += componentType.rawValue + module.rawValue
+        public init(componentType: ComponentTypes,
+                    additionalName: String?,
+                    module: ModuleNames,
+                    number: String?) {
+            self.constructedName += componentType.rawValue
+            if let additionalName = additionalName {
+                self.constructedName += additionalName
+            }
+            self.constructedName += module.rawValue
             if let number = number {
-                self.constructedName += String(number)
+                self.constructedName += number
             }
         }
     }
@@ -32,6 +39,7 @@ public enum ComponentTypes: String {
     case tableViewCell = "tblCell"
     case collectionView = "collec"
     case collectionViewCell = "collecCell"
+    case searchBar = "srcBar"
 }
 
 public enum ModuleNames: String {
